@@ -4,13 +4,13 @@ client.on('ready', () => {
 client.request('SET_ACTIVITY', {
 pid: process.pid,
 activity : {
-details : "Your Text Here",
+details : "BATTLEGROUNDS MOBILE INDIA",
 assets : {
 large_image : "Image",
-large_text : "Your Status" // THIS WILL SHOW AS "Playing <Status>" from the outisde
+large_text : "BATTLEGROUNDS MOBILE INDIA" // THIS WILL SHOW AS "Playing <Status>" from the outisde
 },
-buttons : [{label : "Button1" , url : "Link1"},{label : "Button2",url : "Link2"}]
+buttons : [{label : "JOIN OUR SERVER" , url : "https://www.discord.gg/utcofficial"},{label : "YOUTUBE CHANNEL",url : "https://youtube.com/channel/UCldnelRyhKu0m0QtULBlfNQ"}]
 }
 })
 })
-client.login({ clientId : "ApplicationID" }).catch(console.error);
+client.login({ clientId : "860121441574977536" }).catch(console.error);
